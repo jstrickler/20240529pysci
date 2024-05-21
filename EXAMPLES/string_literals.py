@@ -8,3 +8,13 @@ print()
 print('Guido is the ex-"BDFL" of Python')
 print()
 print("""Guido's the ex-"BDFL" of Python""")
+print(""" wheeeee "" hooray '' """)
+
+query = """
+select *
+from customers
+where state = "NV" 
+   and current_balance > 10000
+order by zip_code desc
+"""
+
