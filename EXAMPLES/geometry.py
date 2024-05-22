@@ -40,6 +40,7 @@ def square_area(side):
     """
     return side ** 2
 
+
 if __name__ == "__main__":   # if running as script, not imported as module
     print("Hi, Mom!!")
 
